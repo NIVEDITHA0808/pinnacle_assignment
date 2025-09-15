@@ -3,11 +3,9 @@ PyJWT==2.10.1
 requests>=2.31.0
 numpy>=1.26.0,<2.1.0
 pandas>=2.3.2
-lxml>=4.9.3
 cryptography>=41.0.0
 groq>=0.31.1
 fastapi>=0.116.1
-uvicorn>=0.23.0
-python-dotenv>=1.1.1
 beautifulsoup4>=4.13.5
 gTTS>=2.5.4
+
