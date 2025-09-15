@@ -1,31 +1,13 @@
-# Core
 streamlit==1.49.1
-fastapi==0.116.1
-uvicorn==0.23.2
-starlette==0.27.0
-
-# Groq AI
-groq==0.31.1
 PyJWT==2.10.1
-
-# Data handling
+requests>=2.31.0
 numpy>=1.26.0,<2.1.0
 pandas>=2.3.2
-pyarrow>=10.0.1
 lxml>=4.9.3
-beautifulsoup4>=4.13.5
-requests>=2.31.0
-
-# Text / TTS / STT (cloud-friendly)
-gTTS>=2.5.4
-SpeechRecognition>=3.14.3
-
-# Dev / utils
+cryptography>=41.0.0
+groq>=0.31.1
+fastapi>=0.116.1
+uvicorn>=0.23.0
 python-dotenv>=1.1.1
-toml>=0.10.2
-typing-extensions>=4.15.0
-
-# Optional: Async / HTTP
-aiohttp>=3.8.5
-httpx>=0.28.1
-anyio>=4.10.0
+beautifulsoup4>=4.13.5
+gTTS>=2.5.4
